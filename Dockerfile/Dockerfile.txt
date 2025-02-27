@@ -1,0 +1,11 @@
+# Use the official Nginx image as the base image
+FROM nginx:latest
+
+# Copy website files into the container
+COPY web/ /usr/share/nginx/html
+
+# Expose port 80 to allow web traffic
+EXPOSE 80
+
+# Start Nginx when the container runs
+CMD ["nginx", "-g", "daemon off;"]
