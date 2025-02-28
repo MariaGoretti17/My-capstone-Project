@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Page 1</title>
-</head>
-<body>
-    <h1>This is my Capstone Project</h1>
-    <a href="index.html">Back to Home</a>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
